@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+htm,body{
+    /* background-color:aliceblue; */
+    display: felx;
+    justify-content: center;
+}
+.header{
+    height:60px;
+    background-color:  #6666ff;
+    display: flex;
+}
+.search_bar{
+    height:60px;
+    width:650px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    height:30px;
+    width:600px;
+    /* background-color: aqua; */
+}
+.image img{
+    height: 30px;
+    background-color: aliceblue;
+    margin-left: 120px;
+
+}
+.content{
+    background-color: greenyellow;
+    display:flex;
+    display:space 
+}
+.product{
+    height:70px;
+    width:1000px;
+     display:flex;
+     background-color: yellow;
+    
+
+}
+.top{
+    /* display:flex; */
+}
+.grocery{
+
+}
+.mobile{
+
+}
+.fashion{
+
+}
+.electronic{
+
+}
+.home{
+
+}
+.appliaces{
+
+}
+.trvels{
+
+}
+.beauty{
+
+}

@@ -1,0 +1,63 @@
+html.body{
+
+}
+
+
+.main{
+
+    height :70px;
+    width :150px;
+    border-radius:50px;
+    background-color:black;
+    position:relative;
+    
+    
+}
+.sub{
+ height:20px;
+ width :20px;
+ border-radius: 10px;
+ position:absolute;
+ background-color:green;
+    left : 110px;
+    top :25px;
+
+
+}
+.input{
+    
+    position:relative;
+    
+}
+.icon{
+    height :20px;
+    width : 25px;
+    border-radius: 10px;
+    position : absolute;
+    top: 0px;
+    left: 150px;
+    background-color: blue;
+    
+   
+
+
+}
+.header{
+    height : 30px;
+    width : 500px;
+    position : sticky;
+    top:0;
+    background-color: aqua;
+    
+    
+    
+}
+.chat{
+    height :70px;
+    width: 100px;
+    border-radius:80px;
+    background-color: blueviolet;
+    position:fixed;
+    top :400px;
+    left :400px;
+}

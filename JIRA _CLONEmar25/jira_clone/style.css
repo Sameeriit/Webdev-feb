@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: sans-serif;
+}
+
+.color-1{
+
+    background-color: darkcyan;
+
+
+}
+.color-2{
+ background-color: lightpink;
+}
+
+.color-3{
+ background-color: lightgreen;
+
+}
+
+
+
+.Main,html,body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* background-color: yellow;  */
+}
+.Main header {
+    height: 100px;
+    width: 100%;
+    /* background-color: red;  */
+    position: relative; 
+    display: flex;
+    padding:30px;
+    border-bottom: 1px solid green; 
+}
+
+.Main header .name{
+    padding: 10px;
+    margin-trim:auto;
+    /* background-color: blue; */
+   position: absolute;
+    font-size: xx-large;
+
+}
+
+
+.Main header .plus{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+     background-color: rgb(64, 238, 223); 
+     position:fixed;
+    justify-content: center;
+    align-items: center; 
+    font-size: xx-large;
+    font-weight: 900;
+    color:white;
+    border:none;
+    right:20px;  
+    /* display:flex; */
+
+}
+
+.plus:hover{
+    background-color:yellowgreen ;
+    
+
+}
+
+
+.box{
+    height: 250px;
+    width: 180px;
+    /* padding: 5px; */ 
+    margin: 20px;
+    background-color:rgb(224, 241, 247); 
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+
+
+
+
+
+ 
+/* .box main{
+    height: 200px;
+    width: 150px;
+    /* background-color: blueviolet; */
+    /* border-radius: 4px;
+    border: 1px solid green; */
+
+
+.box header{
+    height: 10px;
+    width: 100%;
+     padding: 30px; 
+     /* background-color: blue;   */ 
+    /* border: 1px solid green;
+    border-radius: 5px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* right: 1px; */
+   
+    border-bottom: 0px solid black;   
+}
+
+.box .border-header{
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid black;
+}
+
+
+
+.box textarea{
+    
+    margin: 10px; 
+    top: 70px;
+    left: 15px;
+    display: flex;
+    height: 150px;
+    width: 130px;
+    
+    border-radius: 4px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .icon {
+    
+    
+    margin: 5px;
+    color: white;
+    font-size: small;
+    text-align: center; 
+    line-height: 20px;
+    height: 20px;
+    width:20px;
+    border-radius: 50%;
+     
+}
+
+
+.box header .icon{
+    position: relative;
+    left: 30px;
+
+    
+}
+
+
+
+
+.Main footer{
+    position: fixed;
+    height: 25px;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    color: yellow;
+    text-align: center;
+}
