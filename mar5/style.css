@@ -1,5 +1,8 @@
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 htm,body{
     /* background-color:aliceblue; */
@@ -9,7 +12,7 @@ htm,body{
 .header{
     height:60px;
     background-color:  #6666ff;
-    display: flex;
+     display: flex; 
 }
 .search_bar{
     height:60px;
@@ -32,15 +35,20 @@ htm,body{
 }
 .content{
     background-color: greenyellow;
-    display:flex;
+    /* display:flex; */
+    top: 5rem;
     display:space 
 }
-.product{
-    height:70px;
+.product {
+    /* height:50px;
     width:1000px;
-     display:flex;
-     background-color: yellow;
-    
+    display:flex;
+    display: inline-block;
+    /* justify-content: center;
+    align-items: center; */
+    /* background-color: yellow; */
+  display: inline-grid;
+
 
 }
 .top{

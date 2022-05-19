@@ -1,0 +1,62 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ html body{
+     height: 50px;
+     width: 100%;
+    /* background-color: blue; */
+}
+
+
+.header{
+    
+    height: 80px;
+    width: 100%;
+    background-color:rgb(8, 1, 26);
+    display: flex;
+    /* justify-content: center; */
+    
+
+}
+.img1{
+    
+    margin-top: 10px;
+    display: flex;
+}
+
+
+
+.search2{
+    height: 40px;
+    width: 40px;
+}
+.dropdown{
+    margin-left:150px ;
+    height: 44px;
+    width: 40px;
+
+}
+.search_bar{
+    height: 40px;
+    width: 500px;
+    display: flex;
+}
+
+.location{
+    height: 60px;
+    width: 300px;
+    background-color: red;
+    display:flex;
+    color: white;
+    
+   
+  
+}
+.product{
+    margin: 5px;
+    padding: 20px 30px;
+    background-color: blue;
+}
